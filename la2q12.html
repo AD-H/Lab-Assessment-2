@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>la2 q12</title>
+
+<style>
+
+body{
+    background-color: skyblue;
+    font-family: Arial, sans-serif;
+    margin:0;
+}
+h1{
+    text-align:center;
+    margin-top:20px;
+}
+.nav{
+    text-align:center;
+    margin:20px;
+}
+.nav a{
+    background-color:darkblue;
+    color:white;
+    padding:10px 15px;
+    margin:5px;
+    text-decoration:none;
+    border-radius:8px;
+    display:inline-block;
+}
+.section{
+    background-color:darkblue;
+    color:white;
+    padding:20px;
+    margin:20px auto;
+    width:60%;
+    border-radius:10px;
+}
+.section h2{
+    text-align:center;
+}
+.section input,
+.section select{
+    width:100%;
+    padding:8px;
+    margin:8px 0;
+    border-radius:5px;
+    border:none;
+}
+button{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    border:none;
+    border-radius:5px;
+    font-weight:bold;
+    cursor:pointer;
+}
+h2.name{
+    text-align: left;
+}
+</style>
+
+</head>
+
+<body>
+    <h2 class = "name">Aachman Dwivedi, 24BCI0207</h2>
+
+<h1>Student Registration Portal</h1>
+
+<div class="nav">
+<a href="#personal">Personal Information</a>
+<a href="#academic">Academic Details</a>
+<a href="#address">Address Information</a>
+<a href="#account">Account Credentials</a>
+</div>
+
+<form onsubmit="alert('Form Submitted Successfully')">
+
+<div class="section" id="personal">
+<h2>Personal Information</h2>
+
+<label>Full Name</label>
+<input type="text">
+
+<label>Date of Birth</label>
+<input type="date">
+
+<label>Gender</label>
+<select>
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+</select>
+
+<label>Email Address</label>
+<input type="email">
+
+<label>Mobile Number</label>
+<input type="text">
+
+</div>
+
+<div class="section" id="academic">
+<h2>Academic Details</h2>
+
+<label>Register Number</label>
+<input type="text">
+
+<label>Degree Program</label>
+<input type="text">
+
+<label>Department</label>
+<input type="text">
+
+<label>Year of Study</label>
+<input type="text">
+
+</div>
+
+<div class="section" id="address">
+<h2>Address Information</h2>
+
+<label>Door Number</label>
+<input type="text">
+
+<label>Street Name</label>
+<input type="text">
+
+<label>City</label>
+<input type="text">
+
+<label>State</label>
+<input type="text">
+
+<label>Pincode</label>
+<input type="text">
+
+</div>
+
+<div class="section" id="account">
+<h2>Account Credentials</h2>
+
+<label>Username</label>
+<input type="text">
+
+<label>Password</label>
+<input type="password">
+
+<label>Confirm Password</label>
+<input type="password">
+
+<button type="submit">Submit</button>
+</div>
+</form>
+</body>
+</html>
